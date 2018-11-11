@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--上線前註解掉這行-->
+    <meta name="robots" content="noindex, nofollow">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>news detail</title>
+    <link rel="stylesheet" href="./assets/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="./assets/css/swiper.min.css">
+    <link rel="stylesheet" href="./assets/css/hamburgers.css">
+    <link rel="stylesheet" href="./assets/css/app.css">
+
+    <!--News Style-->
+    <link rel="stylesheet" href="./assets/css/pages.css"/>
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>
+                <a href="./">
+                    <img src="./assets/img/logo/logo_app.png" alt="風雅 FENGYA" />
+                </a>
+            </h1>
+            <div class="mobile_menu">
+                <div class="hamburger hamburger--squeeze js-hamburger">
+                    <div class="hamburger-box">
+                        <div class="hamburger-inner"></div>
+                    </div>
+                </div>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <!--當前選單樣式: .menu>ul>li>a>.on -->
+                    <li>
+                        <a href="about.html" alt="公司簡介">公司簡介</a>
+                    </li>
+                    <li>
+                        <a href="entertainment.html" alt="環球娛樂">環球娛樂</a>
+                    </li>
+                    <li>
+                        <a class="on" href="news.html" alt="最新消息">最新消息</a>
+                    </li>
+                    <li>
+                        <a href="#" alt="會員登入">會員登入</a>
+                    </li>
+                </ul>
+            </nav>
+        </header><!--/header-->
+        <div class="bread_list">
+                <h2>環球娛樂</h2>
+                <ul class="main-navigation">
+                        <li><a href="index.html">首頁</a>／</li>
+                        <li><a href="entertainment.html">環球娛樂</a>／</li>
+                        <li><a class="on">精采體驗</a></li>
+                </ul>
+        </div>
+        <div class="row_list" style="min-height:1000px;">
+                <section>
+                    <div class="mwidth flex between center">
+                        <div class="col2-l2-m1">
+                            <img src="https://fakeimg.pl/540x372/999/fff/"/>
+                        </div>
+                        <div class="col2-l2-m1">
+                            <h1 class="title mgt1"><span class="large-title">Vista / </span><span class="middle-title">華克山莊Vista酒店</span></h1>
+                            <ul>
+                                <!-- 
+                                本頁總icon參考:
+                                <li><i class="icons m-building"></i><span>城市</span></li>
+                                <li><i class="icons m-nature"></i><span>自然</span></li>
+                                <li><i class="icons m-music"></i><span>表演</span></li>
+                                <li><i class="icons m-cook"></i><span>飲食</span></li>
+                                <li><i class="icons m-file"></i><span>計畫</span></li>
+                                <li><i class="icons m-party"></i><span>派對</span></li>
+                                <li><i class="icons m-star"></i><span>娛樂場</span></li>
+                                <li><i class="icons m-star"></i><span>藝術</span></li>
+                                <li><i class="icons m-life"></i><span>生命</span></li> -->
+
+                                <li><i class="icons m-building"></i><span>城市</span></li>
+                                <li><i class="icons m-nature"></i><span>自然</span></li>
+                            </ul>
+                            <p class="detail mgt1">
+                                坐落於在可將峨嵯山四季秀美之韻與漢江靈動之氣盡收眼底，再以憑藉著高格調雅致的設備和服務為基礎，同時享受到城市的便利性和大自然的舒適感。
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="mwidth flex between center">
+                        <!--留意! 在 section 列表偶數的區塊，DOM樣式有差異，前後都需要加圖片，前: m-show, 後 pc-show -->
+                        <div class="col2-l2-m1 m-show">
+                            <img src="https://fakeimg.pl/540x372/999/fff/"/>
+                        </div>
+                        <div class="col2-l2-m1">
+                            <h1 class="title mgt1"><span class="large-title">Entertainment / </span><span class="middle-title">娛樂</span></h1>
+                            <ul>
+                                    <li><i class="icons m-star"></i><span>娛樂場</span></li>
+                                    <li><i class="icons m-party"></i><span>派對</span></li>
+                                    <li><i class="icons m-music"></i><span>表演</span></li>
+                            </ul>
+                            <p class="detail mgt1">
+                                    經常性的舉行不同的活動，在農曆新年、國慶節等中國節日的時候會開展相關的活動，還有深受信賴的百樂達斯娛樂場，外國人專用娛樂賭場提供高品質專業化的服務，還會進行“百家樂”大賽、盛大的宴會派對、ROAD FC國際級格鬥賽、亞洲著名歌手公演、贈送高額奬品等多姿多彩的活動。
+                            </p>
+                        </div>
+                        <div class="col2-l2-m1 pc-show">
+                            <img src="https://fakeimg.pl/540x372/999/fff/"/>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="mwidth flex between center">
+                        <div class="col2-l2-m1">
+                            <img src="https://fakeimg.pl/540x372/999/fff/"/>
+                        </div>
+                        <div class="col2-l2-m1">
+                            <h1 class="title mgt1"><span class="large-title">Health / </span><span class="middle-title">特有的健康管理</span></h1>
+                            <ul>
+                                    <li><i class="icons m-cook"></i><span>飲食</span></li>
+                                    <li><i class="icons m-file"></i><span>計畫</span></li>
+                            </ul>
+                            <p class="detail mgt1">
+                                HealthConnect醫療保健公司，通過SK Telecom的ICT 技術與首爾國立大學醫院的最高質量醫療服務相結合，包含營養調理＆運動計畫、矯正姿勢與疼痛治療、強化身心功能全方位計畫，結合現今科技ICT 技術讓療程得以延續健康管理。 FC國際級格鬥賽、亞洲著名歌手公演、贈送高額奬品等多姿多彩的活動。
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="mwidth flex between center">
+                        <!--留意! 在 section 列表偶數的區塊，DOM樣式有差異，前後都需要加圖片，前: m-show, 後 pc-show -->    
+                        <div class="col2-l2-m1 m-show">
+                            <img src="https://fakeimg.pl/540x372/999/fff/"/>
+                        </div>
+                        <div class="col2-l2-m1">
+                            <h1 class="title mgt1"><span class="large-title">Luxurious / </span><span class="middle-title">持續的奢華</span></h1>
+                            <ul>
+                                    <li><i class="icons m-star"></i><span>藝術</span></li>
+                                    <li><i class="icons m-life"></i><span>生命</span></li>
+                            </ul>
+                            <p class="detail mgt1">
+                                HealthConnect醫療保健公司，通過SK 光的呼吸  自然，它為人類生活帶來生命。木頭上的媒體藝術及天花板上的LEO圖像組合成一體，為一部包含希望和祝福信息的作品而誕生，在人與自然和未來共存的新空間中，通過差異性和創造性的生活方式體驗，引領真正的可持續奢華文化。 FC國際級格鬥賽、亞洲著名歌手公演、贈送高額奬品等多姿多彩的活動。
+                            </p>
+                        </div>
+                        <div class="col2-l2-m1 pc-show">
+                            <img src="https://fakeimg.pl/540x372/999/fff/"/>
+                        </div>
+                    </div>
+                </section>
+        </div><!--/#contents-->
+        <footer>
+            <div class="f-content">
+                <h3><img src="./assets/img/logo/logo_footer.png"/></h3><br/>
+                <span class="about-us-info">
+                        <span class="service-info"><br/>服務時間：週一至週五 8 : 30 - 18 : 30　<br/>市話請撥：0800-060-018　<br/>手機請撥：02-2795-2398</span><br/><br/>
+                        <span class="social-share">
+                            <ul>
+                                <li><span><a href="#" class="fb icons"></a></span></li>
+                                <li><span><a href="#" class="line icons"></a></span></li>
+                                <li><span><a href="#" class="wechat icons"></a></span></li>
+                            </ul>
+                        </span>
+                        <span class="copyright">© Copyright 2018 風雅國際 - All Rights Reserved</span>
+                </span>
+            </div>
+        </footer>
+    </div>
+    <!--javascript-->    
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/jquery.fancybox.min.js"></script>
+    <script src="./assets/js/swiper.min.js"></script>
+    <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/local.js"></script>
+</body>
+</html>

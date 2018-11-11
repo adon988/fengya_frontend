@@ -1,0 +1,1 @@
+"use strict";!function(e){e.fn.initAnimate=function(n){var i=this;i.find(n.elem).on("click",function(){768<e(window).width()&&(i.find(n.elem).removeClass("on"),e(this).addClass("on"))})}}($),$(".mobile_menu, .menu>ul>li>a").on("click",function(){$(".hamburger").toggleClass("is-active"),$(".menu").toggleClass("on")});
