@@ -15,7 +15,10 @@
 </head>
 <body>
     <div id="main">
-        <header style="background-image: url('./assets/img/home/home_02.gif')">
+        <header class="mask_bg">
+            <!-- <i class="major_bg" style="background-image: url('./assets/img/home/home_02.gif')"></i> -->
+            <i class="major_bg" 
+            data-vide-bg="./assets/img/video/video.mp4" data-vide-options="loop: true, muted: true, position: 0% 0%" ></i>
             <h1>
                 <a href="./">
                     <img src="./assets/img/logo/logo_,main.png" alt="風雅 FENGYA" />
@@ -199,6 +202,10 @@
     </div>
     <!--javascript-->    
     <script src="./assets/js/jquery.min.js"></script>
+
+    <!--Pages js-->
+    <script src="./assets//js/jquery.vide.js"></script>
+
     <script src="./assets/js/jquery.fancybox.min.js"></script>
     <script src="./assets/js/swiper.min.js"></script>
     <script src="./assets/js/app.js"></script>
